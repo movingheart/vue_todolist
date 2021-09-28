@@ -1,3 +1,3 @@
 # vue_todolist
 
-vue写的todolist联系项目
+vue写的todolist练习项目
