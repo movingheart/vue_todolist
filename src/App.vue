@@ -33,7 +33,7 @@ export default {
   },
   methods:{
     add(e){
-      console.log("data:", this.todos)
+      if(!e.target.value.trim()){return alert("输入不能为空")}
       this.todos.unshift({id: nanoid(), name: e.target.value, done: false})
       e.target.value=''
     },
